@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Calculate Your Income</title>
+</head>
+
+<body>
+    <!-- header -->
+    <header class="text-center">
+        <h1>Calculate Your Income, Control All Expenses.</h1>
+        <p>Here is a webpage to calculate your daily, weekly, monthly and even yearly expenses. There is an option to
+            calculate your savings as percentage.</p>
+    </header>
+    <!-- main -->
+    <main>
+        <!-- all calculations here -->
+        <div>
+            <div>
+                <h5>Income</h5>
+                <div><input id="income-field" type="text"></div>
+            </div>
+            <div>
+                <h5>Expenses</h5>
+                <p>Food</p>
+                <div><input id="food" type="text"></div>
+                <p>Rent</p>
+                <div><input id="rent" type="text"></div>
+                <p>Clothes</p>
+                <div><input id="clothes" type="text"></div>
+            </div>
+            <div><button id="calculate-button">Calculate</button></div>
+            <div>
+                <h3>Total Expenses: <u id="total-expense">0000</u> Tk.</h3>
+                <h3>Remaining Balance: <u id="remaining-balance">0000</u> Tk.</h3>
+            </div>
+            <div>
+                <section>
+                    <p class="inline-dispaly">Save:</p>
+                    <div><input id="saving-percentage" type="text"></div>
+                    <p class="inline-dispaly">%</p>
+                    <button id="save-button">Save</button>
+                </section>
+            </div>
+            <div>
+                <h3>Saving Amount: <u id="saving-amount">0000</u> Tk.</h3>
+                <h3>remaining-balance: <u id="remaining-balance-saving">0000</u> Tk.</h3>
+            </div>
+        </div>
+    </main>
+</body>
+
+</html>
