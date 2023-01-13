@@ -44,8 +44,42 @@ nav {
     font-size: 20px;
 }
 
+.head-text-n {
+    color: #013237;
+    font-weight: 500;
+    font-size: 25px;
+    margin-top: 0;
+    margin-bottom: 10px;
+}
+
+#calculation {
+    padding: 50px;
+    display: flex;
+    align-items: baseline;
+    justify-content: space-between;
+}
+
+
+
 button {
     margin-top: 20px;
+    background-color: #c0e6ba;
+    border: 2px solid #013237;
+    border-radius: 8px;
+    padding: 10px 20px 10px 20px;
+    color: #013237;
+}
+
+button:hover {
+    background-color: #013237;
+    color: #c0e6ba;
+}
+
+input{
+    padding: 10px 50px;
+    border: 2px solid #013237;
+    border-radius: 5px;
+    background-color: #c0e6ba;
 }
 
 h3 {
