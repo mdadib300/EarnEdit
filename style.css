@@ -1,63 +1,61 @@
-body{
+body {
     font-family: 'PT Sans', sans-serif;
     background-color: #c0e6ba;
     max-width: 1440px;
     margin: auto;
-    border: 1px dashed #013237;
 }
 
-nav{
+nav {
     padding: 20px;
 }
 
-.text-center{
+.text-center {
     text-align: center;
 }
 
-#banner{
+#banner {
     display: flex;
     align-items: center;
     justify-content: space-between;
     padding: 100px;
 }
 
-#banner-image{
+#banner-image {
     margin-left: 100px;
 }
 
-.head-text-l{
+.head-text-l {
     color: #013237;
     font-weight: 700;
     font-size: 56px;
     margin: 0;
-}   
+}
 
-.head-text-m{
+.head-text-m {
     color: #013237;
     font-weight: 600;
     font-size: 35px;
     margin: 0;
 }
 
-.head-text-s{
+.head-text-s {
     color: #013237;
     font-weight: 500;
     font-size: 20px;
 }
 
-h5{
-    color: salmon;
-}
-button{
+button {
     margin-top: 20px;
 }
-h3{
+
+h3 {
     color: rgb(252, 76, 45);
 }
-u{
+
+u {
     color: black;
 }
-.inline-dispaly{
+
+.inline-dispaly {
     display: inline;
 }
-
