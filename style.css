@@ -73,6 +73,24 @@ input {
 
 /* unique styles */
 
+nav {
+    padding: 20px;
+    background-color: #013237;
+    color: #c0e6ba;
+}
+
+#nav-head-text {
+    font-weight: 700;
+    font-size: 56px;
+    margin: 0;
+}
+
+#nav-medium-text {
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+}
+
 #banner {
     display: flex;
     align-items: center;
@@ -92,28 +110,6 @@ input {
 
 #total-expense {
     margin-bottom: 15px;
-}
-
-#saving-amount {
-    margin-bottom: 15px;
-}
-
-nav {
-    padding: 20px;
-    background-color: #013237;
-    color: #c0e6ba;
-}
-
-#nav-head-text{
-    font-weight: 700;
-    font-size: 56px;
-    margin: 0;
-}
-
-#nav-medium-text{
-    font-weight: 600;
-    font-size: 35px;
-    margin: 0;
 }
 
 footer {
