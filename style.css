@@ -5,23 +5,10 @@ body {
     margin: auto;
 }
 
-nav {
-    padding: 20px;
-}
+/* Common styles */
 
 .text-center {
     text-align: center;
-}
-
-#banner {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 100px;
-}
-
-#banner-image {
-    margin-left: 100px;
 }
 
 .head-text-l {
@@ -42,32 +29,25 @@ nav {
     color: #013237;
     font-weight: 500;
     font-size: 20px;
+    margin: 0;
 }
 
 .head-text-n {
     color: #013237;
     font-weight: 500;
     font-size: 25px;
-    margin-top: 0;
-    margin-bottom: 10px;
+    margin: 0;
 }
-
-#calculation {
-    padding: 50px;
-    display: flex;
-    align-items: baseline;
-    justify-content: space-between;
-}
-
-
 
 button {
     margin-top: 20px;
+    margin-bottom: 20px;
     background-color: #c0e6ba;
     border: 2px solid #013237;
     border-radius: 8px;
-    padding: 10px 20px 10px 20px;
+    padding: 10px 20px;
     color: #013237;
+    width: 150px;
 }
 
 button:hover {
@@ -75,21 +55,49 @@ button:hover {
     color: #c0e6ba;
 }
 
-input{
-    padding: 10px 50px;
+input {
+    padding: 10px 5px;
+    width: 300px;
     border: 2px solid #013237;
     border-radius: 5px;
     background-color: #c0e6ba;
 }
 
-h3 {
-    color: rgb(252, 76, 45);
+.calculation-headings{
+    margin-bottom: 20px;
 }
 
-u {
-    color: black;
+.expenses-input{
+    margin-bottom: 15px;
 }
 
-.inline-dispaly {
-    display: inline;
+/* unique styles */
+
+#banner {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 100px;
+}
+
+#banner-image {
+    margin-left: 100px;
+}
+
+#calculation {
+    padding: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+}
+
+#total-expense{
+    margin-bottom: 15px;
+}
+
+#saving-amount{
+    margin-bottom: 15px;
+}
+
+nav {
+    padding: 20px;
 }

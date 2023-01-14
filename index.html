@@ -46,44 +46,57 @@
         </h1>
         <!-- all calculations here -->
         <div id="calculation">
+
             <div>
-                <h5 class="head-text-n">1. First, type your Income amount.</h5>
+                <h5 class="head-text-n calculation-headings">1. First, type your Income amount.</h5>
                 <div>
                     <input id="income-field" type="text">
                 </div>
             </div>
             <div>
                 <div>
-                    <h5 class="head-text-n">2. Now, tell me about your Expenses.</h5>
+                    <h5 class="head-text-n calculation-headings">2. Now, tell me about your Expenses.</h5>
                     <div>
                         <p class="head-text-s">Food</p>
-                        <div><input id="food" type="text"></div>
+                        <div class="expenses-input">
+                            <input id="food" type="text">
+                        </div>
                         <p class="head-text-s">Rent</p>
-                        <div><input id="rent" type="text"></div>
+                        <div class="expenses-input">
+                            <input id="rent" type="text">
+                        </div>
                         <p class="head-text-s">Clothes</p>
-                        <div><input id="clothes" type="text"></div>
+                        <div class="expenses-input">
+                            <input id="clothes" type="text">
+                        </div>
+                        <p class="head-text-s">Others</p>
+                        <div class="expenses-input">
+                            <input id="others" type="text">
+                        </div>
                     </div>
                 </div>
-                <div><button id="calculate-button">Calculate</button></div>
                 <div>
-                    <h3 class="head-text-n">Total Expenses: <span id="total-expense">0000</span> Tk.</h3>
-                    <h3 class="head-text-n">Remaining Balance: <span id="remaining-balance">0000</span> Tk.</h3>
+                    <button id="calculate-button">Calculate</button>
+                    <div>
+                        <h3 class="head-text-n" id="total-expense">Total Expenses: <span id="total-expense">0000</span> Tk.</h3>
+                        <h3 class="head-text-n">Remaining Balance: <span id="remaining-balance">0000</span> Tk.</h3>
+                    </div>
                 </div>
             </div>
             <div>
                 <div>
                     <section>
-                        <h5 class="head-text-n">3. Finally, type the percentage to save money.</h5>
+                        <h5 class="head-text-n calculation-headings">3. Finally, type the percentage to save money.</h5>
                         <div><input id="saving-percentage" type="text"></div>
-                        <p class="inline-dispaly">%</p>
                         <button id="save-button">Save</button>
                     </section>
                 </div>
                 <div>
-                    <h3>Saving Amount: <u id="saving-amount">0000</u> Tk.</h3>
-                    <h3>remaining-balance: <u id="remaining-balance-saving">0000</u> Tk.</h3>
+                    <h3 class="head-text-n" id="saving-amount">Saving Amount: <span id="saving-amount">0000</span> Tk.</h3>
+                    <h3 class="head-text-n">remaining-balance: <span id="remaining-balance-saving">0000</span> Tk.</h3>
                 </div>
             </div>
+
         </div>
     </main>
 </body>
