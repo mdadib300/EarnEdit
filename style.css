@@ -108,7 +108,11 @@ nav {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#total-expense {
+#total-expense-text {
+    margin-bottom: 15px;
+}
+
+#saving-amount-text {
     margin-bottom: 15px;
 }
 
