@@ -63,11 +63,11 @@ input {
     background-color: #c0e6ba;
 }
 
-.calculation-headings{
+.calculation-headings {
     margin-bottom: 20px;
 }
 
-.expenses-input{
+.expenses-input {
     margin-bottom: 15px;
 }
 
@@ -90,14 +90,36 @@ input {
     grid-template-columns: repeat(3, 1fr);
 }
 
-#total-expense{
+#total-expense {
     margin-bottom: 15px;
 }
 
-#saving-amount{
+#saving-amount {
     margin-bottom: 15px;
 }
 
 nav {
     padding: 20px;
+    background-color: #013237;
+    color: #c0e6ba;
+}
+
+#nav-head-text{
+    font-weight: 700;
+    font-size: 56px;
+    margin: 0;
+}
+
+#nav-medium-text{
+    font-weight: 600;
+    font-size: 35px;
+    margin: 0;
+}
+
+footer {
+    text-align: center;
+    padding: 50px;
+    background-color: #013237;
+    color: #c0e6ba;
+    margin-top: 50px;
 }
